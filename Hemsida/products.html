@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+    <!--refererar bara till stylesheatet-->
+    <head>
+        <link rel="stylesheet" href="css\style.css">
+    </head>
+
+    <!--sätter en container på hela body så att jag kan årdna hela sidan-->
+    <body class="flexbox-container-master">
+
+        <!--här gör vi en nav bar så att man kan navigera runt på dem olika sidorna
+        och så att man vet vilken sida man är på. Vi gör detta genom att göra alla länkarna
+        till flexbox items förutom den man är på-->
+        <div class="flexbox-container-nav">
+            <h1>
+                <a href="products.html">Products</a>
+            </h1>
+            <div class="flexbox-item">
+                <a href="about.html">About</a>
+            </div>
+            <div class="flexbox-item">
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="flexbox-item">
+                <a href="documentation.html">documentation</a>
+            </div>
+            <div class="flexbox-item">
+                <a href="index.html">Home</a>
+            </div>
+        </div>
+
+        <!--Spelen visas här med bild och text. Texten är en hyperlink som tar dig till Steam sidan för det spelet
+        Bildstorleken är definerad och allting är ordnat med divs så att flexboxen gör sin grej.
+        jag centrerar både bilderna och texten så det ser finare ut-->
+        <div class="flexbox-container-game">
+            <div class="flexbox-item-game">
+                <a href="https://store.steampowered.com/app/418460/Rising_Storm_2_Vietnam/">Rising storm 2 vietnam</a>
+                <img src="img/rising storm 2 vietnam.jpg" class="image-medium">
+            </div>
+            <div class="flexbox-item-game">
+                <a href="https://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/">sid meier's civ5</a>
+                <img src="img/civ 5.jpg" class="image-medium">
+            </div>
+            <div class="flexbox-item-game">
+                <a href="https://store.steampowered.com/app/1517290/Battlefield_2042/">Battlefield 2042</a>
+                <img src="img/battlefield 2042.jpg" class="image-medium">
+            </div>¨
+            <div class="flexbox-item-game">
+                <a href="https://store.steampowered.com/app/1517290/Battlefield_2042/"> Civ Beyond Earth</a>
+                <img src="img/Civilization_Beyond_Earth_Cover.jpg" class="image-medium">
+            </div>
+            <div class="flexbox-item-game">
+                <a href="https://store.steampowered.com/app/437160/The_Lions_Song_Episode_1__Silence/">The Lions Song Ep 1</a>
+                <img src="img/lionssong.jpg" class="image-medium">
+            </div>
+            <div class="flexbox-item-game">
+                <a href="https://store.steampowered.com/app/1517290/Battlefield_2042/">Celeste</a>
+                <img src="img/celeste.jpg" class="image-medium">
+            </div>
+        </div>
+    </body>
+</html>
