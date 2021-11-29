@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <!--refererar bara till stylesheatet-->
+    <head>
+        <link rel="stylesheet" href="css\style.css">
+    </head>
+
+    <!--sätter en container på hela body så att jag kan årdna hela sidan-->
+    <body class="flexbox-container-master">
+
+        <!--här gör vi en nav bar så att man kan navigera runt på dem olika sidorna
+        och så att man vet vilken sida man är på. Vi gör detta genom att göra alla länkarna
+        till flexbox items förutom den man är på-->
+        <div class="flexbox-container-nav">
+            <h1>
+                <a href="about.html">About</a>
+            </h1>
+            <div class="flexbox-item">
+                <a href="index.html">home</a>
+            </div>
+            <div class="flexbox-item">
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="flexbox-item">
+                <a href="documentation.html">documentation</a>
+            </div>
+            <div class="flexbox-item">
+                <a href="products.html">Products</a>
+            </div>
+        </div>
+
+        <!--en bit text som säger att sidan har dem bästa spelen-->
+        <div class="flexbox-container-1">
+            <div class="flexbox-item-1">
+                <p class="p-big">
+                    This really is the best page for finding good games<br>
+                    The best games in the WORLD
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
